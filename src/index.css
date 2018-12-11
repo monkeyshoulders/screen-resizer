@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -6,9 +7,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background: rgba(0,141,203); */
+  background-image: linear-gradient( to right,  rgba(26,178,203,1) 0%, rgba(0,102,161,1) 90.1% );
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+h1 {
+  color: white;
+}
+
+@media (min-width: 300px) {
+  html {
+    font-size: 50%
+  }
+}
+
+@media (min-width: 500px) {
+  html {
+    font-size: 60%
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 70%
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 80%
+  }
+}
+
+@media (min-width: 1400px) {
+  html {
+    font-size: 90%
+  }
+}
+
+@media (min-width: 1600px) {
+  html {
+    font-size: 100%
+  }
+}
+
+@media (min-width: 2200px) {
+  html {
+    font-size: 110%
+  }
 }
